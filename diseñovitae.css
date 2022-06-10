@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none;
+    color: rgb(49, 144, 168);
+}
+
+body {
+    background-color: rgba(49, 144, 168, 0.4); /*rgba(29, 81, 97, 0.5)*/    
+}
+
+/*-------------NAV------------------*/
+
+.imgbunner {
+    border-radius: 4.6rem;
+    box-shadow: 3rem 3rem 6rem rgb(36, 81, 92);
+}
+
+.menu {
+    list-style: none;
+    font-size: x-large;
+    border: 1px solid rgb(49, 144, 168);
+    border-radius: 1rem;
+    background-color:rgb(36, 81, 92);/*rgba(49, 144, 168,0.2)*/ 
+    color: rgb(49, 144, 168);
+    box-shadow: 1rem 1rem 3rem rgb(36, 81, 92);
+}
+
+.textologo {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(36, 81, 92);
+}
+.textopresentacion {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(36, 81, 92);
+}
+.desplegable {
+    border-radius: 5px 5px  10px 10px;
+    background-color:rgb(36, 81, 92); /*rgba(49, 144, 168,0.2)*/    
+    color: rgb(49, 144, 168);
+    border-left: 1px solid rgb(49, 144, 168);
+    border-right: 1px solid rgb(49, 144, 168) ;
+    border-bottom: 1px solid rgb(49, 144, 168) ;
+    
+    /*background-color: rgba(49, 144, 168,0.2);*/
+}
+
+.desplegable:hover a:hover {
+    opacity: 0.5;
+}
+
+.pruebamain {
+    border: 1px solid gray;
+}
+
+/*---------FOOTER-----------------------------------------*/
+.footer {
+    background-color: rgb(36, 81, 92);
+    border: 1px solid rgb(49, 144, 168) ;
+}
+
+.textofooter {
+    color: rgb(49, 144, 168);
+}
+
+.imgfooter {
+    color: rgb(49, 144, 168);
+}
+
+/*-----------------------MAIN INDEX---------------------------------------------*/
+#div_blanco{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(36, 81, 92);
+}
+/*--------------------MAIN MASAJES-----------------------------------------*/
+.fichamsjsder {
+    color: gb(49, 144, 168);
+    background-color: rgb(36, 81, 92);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 3rem rgb(36, 81, 92);
+    margin: 20px;
+}
+
+.fichamsjsiz {
+    color: gb(49, 144, 168);
+    background-color: rgb(36, 81, 92);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 3rem rgb(36, 81, 92);
+    margin: 20px;
+}
+
+.fichamsjs_pruebader {
+    position: relative;
+    background-color: rgba(36, 81, 92, 0.5);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 2rem rgb(36, 81, 92);
+    margin: 20px;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(49, 144, 168);
+
+}
+
+.fichamsjs_pruebaiz {
+    position: relative;
+    background-color: rgba(36, 81, 92, 0.5);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 2rem rgb(36, 81, 92);
+    margin: 20px;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(49, 144, 168);
+    position: relative;
+}
+
+.imgficha {
+    width: 20rem;
+    height: 12rem;
+    /*Se puede poner el tamaño deseado*/
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 3rem #3190A8;
+
+}
+
+.textoficha {
+    color: rgb(49, 144, 168);
+    font-size: larger;
+}
+
+.textoficha_prueba {
+    color: rgb(36, 81, 92);
+    font-size: larger;
+}
+
+.titficha {
+    opacity: 0.5;
+}
+/*--------------------------------------MAIN INSTALACIONES---------------------------------------------------*/
+.img_instalaciones{
+    box-shadow:1rem 1rem 1rem  #3190A8;
+    border-radius: 2rem;   
+}
+/*-------------------------------------MAIN EXP Y FORMACION-----------------------------------------------------------------------*/
+#fichaformacion{
+    border-radius: 1rem;
+    background-color:rgb(36, 81, 92) ;
+    border: 1px solid rgb(36, 81, 92);
+    font-size:x-large;
+}
+.titulo_tabla{
+background-color:rgb(36, 81, 92) ;
+    border-radius: 0.5rem;
+}
+
+.row_uno{
+   background-color:rgb(36, 81, 92);
+   border-radius: 0.5rem;
+    
+}
+.row_dos{
+     background-color:rgba(36, 81, 92,0.5);
+     border-radius: 0.5rem;
+}

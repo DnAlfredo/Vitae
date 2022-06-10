@@ -1,0 +1,405 @@
+/*-----------GENERALES-------------------*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+}
+
+/*-------------HEADER------------------*/
+.bunner {
+    width: 15rem;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.imgbunner {
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    z-index: 4;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.textologo {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    text-align: center;
+    font-size: x-large;
+    grid-area: txt;
+    z-index: 2;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.menuprincipal {
+    top: 0%;
+    display: grid;
+    grid-template-areas:
+        "header txt txt txt txt txt txt txt txt txt txt txt"
+        "header  nav nav nav nav  nav  nav  nav nav  nav nav nav ";
+}
+
+header {
+    grid-area: header;
+    width: auto;
+}
+
+.barranav {
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    display: flex;
+    grid-area: nav;
+    width: 100%;
+    justify-items: center;
+}
+
+.disparador {
+    height: 3rem;
+}
+
+.disparador:active {
+    display: inline-block;
+}
+
+.desplegable a {
+    display: block;
+}
+
+.desplegable {
+    width: auto;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.desplegable:hover a:hover {
+    opacity: 0.5;
+}
+
+.disparador:hover .desplegable {
+    display: block;
+}
+
+/*---------------FOOTER----------------------------------------*/
+.footer {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    border-radius: 1rem;
+}
+
+.imgfooter {
+    margin: 0;
+}
+
+.imgfooter>img {
+    width: 3rem;
+    border-radius: 20px;
+}
+
+/*---------------------MAIN PRESENTACION---------------------------*/
+.main_presentacion {
+    justify-content: center;
+}
+
+.imgpresentacionvitaeiz {
+    transition: 1s;
+    display: inline-block;
+    border-radius: 20px;
+    height: 25%;
+    width: 30%;
+    animation-name: animerigth, animelogo;
+    animation-duration: 1s;
+    position: relative;
+}
+
+.imgpresentacionvitaeder {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    height: 25%;
+    width: 30%;
+    animation-name: animeleft, animelogo;
+    animation-duration: 1s;
+}
+
+.imgpresentacionvitaecen {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    height: 25%;
+    width: 30%;
+    animation-name: animetop, animelogo;
+    animation-duration: 1s;
+}
+
+#div_blanco {
+    display: inline-block;
+    justify-content: center;
+    grid-area: txt;
+    position: relative;
+    width: 32.5%;
+    border-radius: 20px;
+    height: auto;
+    animation-name: animetop, animelogo;
+    animation-duration: 1s;
+}
+
+.divpresentacion {
+    display: inline-block;
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 0%;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.main_presentacion img:hover {
+    opacity: 0.5;
+}
+
+/*-----------------------MAIN MASAJES------------------------------------*/
+.mainmasajes {
+    display: grid;
+    grid-template-areas:
+        "div div"
+        "div div"
+        "div div"
+        "div div"
+        "div div"
+        "div div";
+}
+
+.fichamsjsder {
+    position: relative;
+    width: auto;
+    grid-area: "div";
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(49, 144, 168);
+
+}
+
+.animeleft {
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.fichamsjsiz {
+    width: auto;
+    grid-area: "div";
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(49, 144, 168);
+    position: relative;
+}
+
+.animerigth {
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.imgficha {
+    width: 20rem;
+    height: 12rem;
+    /*Se puede poner el tamaño deseado*/
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.titficha {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.textoficha {
+    display: inline;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.botonficha {
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------------------MAIN INSTALACIONES--------------------------------------------------------*/
+#main_instalaciones {
+    margin-left: 3%;
+}
+
+.img_instalaciones {
+    display: inline-block;
+    position: relative;
+    width: 26rem;
+    height: 19rem;
+
+}
+
+#img_inst1 {
+    transform: rotate(-7deg);
+    animation-name: animeleft, animelogo;
+    animation-duration: 1s;
+
+}
+
+#img_inst2 {
+    animation-name: animetop, animelogo;
+    animation-duration: 1s;
+    transform: rotate(5deg);
+}
+
+#img_inst3 {
+    transform: rotate(-8deg);
+    animation-name: animerigth, animelogo;
+    animation-duration: 1s;
+
+}
+
+#img_inst4 {
+    animation-name: animetop, animelogo;
+    animation-duration: 1s;
+    transform: rotate(18deg);
+}
+
+#img_inst5 {
+    width: 27rem;
+    height: 20rem;
+    transform: rotate(-4deg);
+    z-index: 3;
+    animation-name: animerigth, animelogo;
+    animation-duration: 1s;
+}
+
+#img_inst6 {
+    animation-name: animeleft, animelogo;
+    animation-duration: 1s;
+    transform: rotate(4deg);
+}
+
+#img_inst7 {
+    animation-name: animerigth, animelogo;
+    animation-duration: 1s;
+    transform: rotate(-3deg);
+}
+
+#img_inst8 {
+    transform: rotate(7deg);
+    animation-name: animeleft, animelogo;
+    animation-duration: 1s;
+}
+
+#img_inst9 {
+    animation-name: animerigth, animelogo;
+    animation-duration: 1s;
+    transform: rotate(-9deg);
+}
+
+/*------------------------------------MAIN EXP Y FORMACION-------------------------------------------------*/
+#main_formacion {
+    display: grid;
+    grid-template-areas:
+        "ficha ficha   "
+        "tablet tablet  ";
+}
+
+#fichaformacion {
+    grid-area: ficha;
+    width: auto;
+    height: auto;
+
+    padding: 2rem;
+}
+
+#fotoformacion {
+    float: left;
+    width: 30rem;
+    height: 22rem;
+    border-radius: 2rem;
+    grid-area: foto;
+    padding: 1rem;
+}
+
+#titformacion {
+    grid-area: tit;
+    text-align: center;
+}
+
+#textoformacion {
+    grid-area: texto;
+
+}
+
+#tablas_formacion {
+    display: flex;
+    grid-area: tablet;
+    grid-template-columns:
+        "tabl tabl "
+        "tabl tabl";
+    font-size: larger;
+    margin-top: 2rem;
+
+}
+
+.tabla_formacion {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.celda_blanca {
+    visibility: hidden;
+}
+
+/*-------------------------------------CONTACTO--------------------------------------------------------------*/
+#main_contacto{
+    height: 30rem;
+    display: flex;
+ justify-content:space-around;
+}
+.mapa_contacto{
+     width: 10rem;
+     height: 10rem;
+     background-color: aqua;
+}
+.div_contacto{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+}
+.text_contacto{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+}
+.correo_contacto{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+}
